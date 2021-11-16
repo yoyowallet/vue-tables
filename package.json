@@ -21,8 +21,8 @@
     "merge": "^1.2.0",
     "moment": "^2.11.1",
     "v-pagination": "^0.1",
-    "vue": ">=1.0 <2.0.0",
-    "vue-resource": "0.9.3"
+    "vue": "^1.0.26",
+    "vue-resource": "^0.9.3"
   },
   "browserify": {
     "transform": [
@@ -36,7 +36,7 @@
     "build-min": "browserify index.js --s VueTables | uglifyjs -c > dist/vue-tables.min.js"
   },
   "devDependencies": {
-    "daterangepicker": "0.0.3",
+    "daterangepicker": "^0.0.3",
     "jasmine-core": "^2.3.4",
     "jquery": "^2.1.4",
     "karma": "^0.13.15",
